@@ -6,3 +6,14 @@ The Laravel package aims to enable a quick implementation of a Game of Tests in 
 
 Want more parsers? Have a question? [Contact me](https://www.swis.nl/wie-zijn-wij/bjorn-brala) or contribute on [Github](https://github.com/swisnl/game-of-tests).
 
+## Usage
+
+1. Install using composer ``composer create-project swisnl/game-of-tests-demo``
+2. Change ``.env`` to suit your needs.
+3. Migrate the databases ``php artisan migrate``
+4. Inspect an organisation ``php got:inpect-github laravel``
+
+All done! 
+
+For more information on how to use the Laravel commands, check out the [Game of Tests Laravel package](https://github.com/swisnl/game-of-tests-laravel).
+
