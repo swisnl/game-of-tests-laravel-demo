@@ -1,0 +1,15 @@
+/* Styles die voor screen en voor print gelden */
+
+body{
+	@extend %font__RobotoSlab;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+h1,h2,h3,h4,h5{
+	font-weight: normal;
+}
+
+a{
+	transition: all .3s;
+}

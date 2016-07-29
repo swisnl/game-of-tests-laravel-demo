@@ -1,0 +1,14 @@
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
+
+FileETag none
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE application/javascript text/css
+</IfModule>
+
+Options -MultiViews
+RewriteEngine on
+RewriteRule ^(css|js)/([A-Za-z0-9_]+)-([0-9]+)\.(css|js)$ $1/$2.$4

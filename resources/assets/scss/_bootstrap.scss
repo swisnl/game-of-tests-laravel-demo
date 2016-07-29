@@ -1,0 +1,30 @@
+
+$font-family-sans-serif: sans-serif;
+$font-family-serif: serif;
+$font-family-base: $font-family-sans-serif;
+
+
+// Core variables and mixins
+@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+
+// Reset
+@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
+
+// Core CSS
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type';
+
+// Utility classes
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+// style
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/theme";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+

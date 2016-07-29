@@ -1,0 +1,47 @@
+@import "../variables/icons";
+
+@font-face {
+  font-family: 'icons';
+  src: url('../fonts/icons.eot?#{$icons-cachebust}');
+  src: url('../fonts/icons.eot?#{$icons-cachebust}') format('embedded-opentype'),
+  //url('../fonts/icons.woff2?#{$icons-cachebust}') format('woff2'), //woff2 geeft nog problemen volgens gulp-iconfont
+  url('../fonts/icons.woff?#{$icons-cachebust}') format('woff'),
+  url('../fonts/icons.ttf?#{$icons-cachebust}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+%font__Roboto {
+	font-family: 'Roboto', sans-serif;
+}
+%font__RobotoSlab {
+	font-family: 'Roboto Slab', serif;
+}
+%font__RobotoCondensed {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+%font__RobotoSlab--light{
+	@extend %font__RobotoSlab;
+	font-weight: 300;
+}
+%font__RobotoSlab--bold{
+	@extend %font__RobotoSlab;
+	font-weight: 700;
+}
+
+%font__Roboto--light{
+	@extend %font__Roboto;
+	font-weight: 300;
+}
+%font__Roboto--bold{
+	@extend %font__Roboto;
+	font-weight: 700;
+}
+
+%font__RobotoCondensed--bold{
+	@extend %font__RobotoCondensed;
+	font-weight: 700;
+}

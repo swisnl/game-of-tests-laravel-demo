@@ -1,0 +1,7 @@
+.navbar-nav li a[title="Homepage"] {
+  @include icon(before, home) {
+    margin-right:10px;
+    font-size:2em;
+    vertical-align: bottom;
+  }
+}
