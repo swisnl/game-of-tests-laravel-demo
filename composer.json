@@ -10,8 +10,7 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "swisnl/game-of-tests-laravel": "^1.0",
-        "php-http/guzzle6-adapter": "^1.1",
-        "swisnl/game-of-tests": "^0.1"
+        "php-http/guzzle6-adapter": "^1.1"
     },
     "require-dev": {
         "doctrine/dbal": "^2.5",
