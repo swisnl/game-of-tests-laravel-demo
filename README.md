@@ -8,7 +8,7 @@ Want more parsers? Have a question? [Contact me](https://www.swis.nl/wie-zijn-wi
 
 ## Usage
 
-1. Install using composer ``composer create-project swisnl/game-of-tests-demo``
+1. Install using composer ``composer create-project swisnl/game-of-tests-laravel-demo``
 2. Change ``.env`` to suit your needs.
 3. Migrate the databases ``php artisan migrate``
 4. Inspect an organisation ``php got:inpect-github laravel``
