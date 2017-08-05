@@ -7,11 +7,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" href="dist/css/screen.css" media="screen">
-    <link rel="stylesheet" href="dist/css/print.css" media="print">
-    <script src="dist/js/app.js"></script>
-    <!--[if lt IE 9]>
-    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}" media="screen">
+    <script src="{{ mix('/js/app.js') }}"></script>
     <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
 </head>
 <body id="layout-standaard">

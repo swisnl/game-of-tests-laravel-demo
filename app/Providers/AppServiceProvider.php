@@ -2,7 +2,6 @@
 
 namespace App\Providers;
 
-use App\ResultsService;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -24,8 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('App\ResultsService', function () {
-            return new ResultsService();
-        });
+        //
     }
 }
