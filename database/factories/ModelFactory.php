@@ -11,30 +11,14 @@
 |
 */
 
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(App\User::class, function (Faker\Generator $faker) {
+    static $password;
+
     return [
         'name' => $faker->name,
-        'email' => $faker->safeEmail,
-        'password' => bcrypt(str_random(10)),
+        'email' => $faker->unique()->safeEmail,
+        'password' => $password ?: $password = bcrypt('secret'),
         'remember_token' => str_random(10),
-    ];
-});
-
-
-$factory->define(\Swis\GotLaravel\Models\Results::class, function (Faker\Generator $faker) {
-    $name =  $faker->name;
-    // $filename, $line, $commitHash, $author, $email, $date, $parser
-    return [
-        'remote' => 'git@github.org:swisnl/gameoftests',
-        'filename' => 'tests/MyTest.php',
-        'line' => $faker->numberBetween(1, 150),
-        'commitHash' => $faker->md5,
-        'author' => $name,
-        'author_normalized' => $name,
-        'author_slug' => \Illuminate\Support\Str::slug($name),
-        'email' => $faker->email,
-        'date' => $faker->time(),
-        'parser' => 'Swis\GoT\Parsers\PhpUnit',
-
     ];
 });

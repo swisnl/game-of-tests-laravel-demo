@@ -1,16 +1,3 @@
-@import "../variables/icons";
-
-@font-face {
-  font-family: 'icons';
-  src: url('../fonts/icons.eot?#{$icons-cachebust}');
-  src: url('../fonts/icons.eot?#{$icons-cachebust}') format('embedded-opentype'),
-  //url('../fonts/icons.woff2?#{$icons-cachebust}') format('woff2'), //woff2 geeft nog problemen volgens gulp-iconfont
-  url('../fonts/icons.woff?#{$icons-cachebust}') format('woff'),
-  url('../fonts/icons.ttf?#{$icons-cachebust}') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 %font__Roboto {
 	font-family: 'Roboto', sans-serif;
 }

@@ -1,11 +1,16 @@
-@import 'variables/**/*';
-@import 'mixins/**/*';
-@import 'global/**/*';
+@import 'variables/colors';
+//@import 'variables/icons';
+@import 'variables/misc';
+//@import 'mixins/icons';
+@import 'global/base';
+@import 'global/fonts';
+@import 'global/form';
 
 @import 'bootstrap';
 
-@import 'abstracts/**/*';
-@import 'blocks/**/*';
+@import 'abstracts/button.abstract';
+//@import 'blocks/nav.block';
+//@import 'blocks/page.block';
 
 
 @media (max-width: $screen-xs-max) {

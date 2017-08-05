@@ -5,26 +5,26 @@ $font-family-base: $font-family-sans-serif;
 
 
 // Core variables and mixins
-@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
-@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
 
 // Reset
-@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
 
 // Core CSS
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
-@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid';
-@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type';
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type';
 
 // Utility classes
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
 // style
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/theme";
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/theme";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
 
