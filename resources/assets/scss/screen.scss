@@ -1,0 +1,59 @@
+@import 'variables/colors';
+//@import 'variables/icons';
+@import 'variables/misc';
+//@import 'mixins/icons';
+@import 'global/base';
+@import 'global/fonts';
+@import 'global/form';
+
+@import 'bootstrap';
+
+@import 'abstracts/button.abstract';
+//@import 'blocks/nav.block';
+//@import 'blocks/page.block';
+
+
+@media (max-width: $screen-xs-max) {
+
+	h1, h2, h3{
+		line-height: 1.1em;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 16px;
+	}
+
+
+	p, li, dl{
+		line-height: 1.6em;
+	}
+	p{
+		margin-bottom: 20px;
+	}
+
+}
+
+.navbar-brand {
+	padding-top:0 !important;
+}
+.navbar-brand>img {
+	height:75px !important;
+}
+
+table a:not(.btn), .table a:not(.btn){
+	text-decoration: none !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color:#D8011D !important;
+}
+
+.navbar {
+	margin-bottom:30px !important;
+}

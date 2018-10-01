@@ -1,0 +1,42 @@
+%button{
+	background-color: $color__primary--compliment;
+	color: $color__secondary--font;
+	font-size: 16px;
+
+	border: 0;
+	padding: 6px 25px;
+	text-decoration: none;
+
+	transition: all .3s;
+
+
+	&:hover,
+	&:active,
+	&:focus{
+		background-color: darken($color__primary--compliment, 5%);
+		text-decoration: none;
+		color: $color__secondary--font;
+	}
+}
+
+	%button--alternate{
+		background-color: $color__primary--active;
+
+
+		&:hover,
+		&:active,
+		&:focus{
+			background-color: darken($color__primary--active, 5%);
+		}
+	}
+
+	%button--dark{
+		background-color: $color__compliment--dark;
+
+
+		&:hover,
+		&:active,
+		&:focus{
+			background-color: lighten($color__compliment--dark, 2.5%);
+		}
+	}
